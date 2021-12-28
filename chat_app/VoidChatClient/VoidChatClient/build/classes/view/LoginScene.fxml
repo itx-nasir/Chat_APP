@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="455.0" prefWidth="559.0" style="-fx-background-color: #00008B;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.LoginSceneController">
+   <children>
+      <Text fill="#a7b90e" layoutX="94.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ChatApp" textAlignment="CENTER" wrappingWidth="192.2138671875">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtUserName" layoutX="107.0" layoutY="143.0" prefHeight="27.0" prefWidth="179.0" promptText="username" />
+      <PasswordField fx:id="txtPassword" layoutX="108.0" layoutY="210.0" prefHeight="27.0" prefWidth="179.0" promptText="********" />
+      <Button fx:id="btnLogin" layoutX="111.0" layoutY="269.0" mnemonicParsing="false" onAction="#btnLoginAction" prefHeight="27.0" prefWidth="173.0" text="Login">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Hyperlink fx:id="linkCreateAccount" layoutX="110.0" layoutY="336.0" onAction="#linkCreatAccountAction" prefHeight="29.0" prefWidth="173.0" text="                Sign Up " textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font></Hyperlink>
+      <Text fill="WHITE" layoutX="25.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UserName" wrappingWidth="82.5576171875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="25.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" wrappingWidth="82.5576260983944">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#b80f18e8" layoutX="126.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="or" textAlignment="CENTER" wrappingWidth="143.2138671875">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

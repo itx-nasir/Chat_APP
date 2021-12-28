@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="homeBox" prefHeight="352.0" prefWidth="400.0" BorderPane.alignment="CENTER" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.HomeBoxController">
+    <children>
+      <HBox prefHeight="64.0" prefWidth="400.0">
+         <children>
+                <Label text="WELCOME" textFill="#f8756c">
+                    <font>
+                        <Font name="System Bold" size="24.0" />
+                    </font>
+               <HBox.margin>
+                  <Insets left="10.0" top="40.0" />
+               </HBox.margin>
+                </Label>
+                <Label fx:id="labelUserName" text="User Name">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                    <padding>
+                        <Insets left="15.0" top="4.0" />
+                    </padding>
+               <HBox.margin>
+                  <Insets top="40.0" />
+               </HBox.margin>
+                </Label>
+         </children>
+      </HBox>
+      <Pane prefHeight="242.0" prefWidth="400.0">
+         <children>
+            <ImageView id="sponser" fx:id="sponser" fitHeight="105.0" fitWidth="208.0" layoutX="26.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@/resouces/Voidlogo.png" />
+               </image>
+            </ImageView>
+            <Pane layoutX="14.0" layoutY="7.0" prefHeight="116.0" prefWidth="279.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="14.0" prefHeight="17.0" prefWidth="165.0" text="  ">
+                     <font>
+                        <Font name="System Bold Italic" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="23.0" layoutY="50.0" prefHeight="17.0" prefWidth="150.0" text="  ">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="23.0" layoutY="71.0" prefHeight="17.0" prefWidth="150.0" text="  ">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="23.0" layoutY="92.0" prefHeight="17.0" prefWidth="150.0" text="  ">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+         <VBox.margin>
+            <Insets left="5.0" right="5.0" top="25.0" />
+         </VBox.margin>
+      </Pane>
+    </children>
+</VBox>

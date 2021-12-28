@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<history xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:noNamespaceSchemaLocation="history.xsd" owner="mohamed">
+    
+    <message>
+        <from>mohamed</from>
+        <to>ahmed</to>
+        <date>2002-09-24</date>
+        <color>red</color>
+        <size>20</size>
+        <family>Times</family>
+        <style>italic</style>
+        <weight>bold</weight>
+        <decoration>underline</decoration>
+        <body>welcome</body>
+    </message>
+    
+    <message>
+        <from>mohamed</from>
+        <to>ahmed</to>
+        <date>2002-09-24</date>
+        <color>red</color>
+        <size>20</size>
+        <family>Times</family>
+        <style>italic</style>
+        <weight>bold</weight>
+        <decoration>underline</decoration>
+        <body>welcome</body>
+    </message>
+   
+    
+</history>

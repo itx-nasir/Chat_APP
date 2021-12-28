@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane id="userInfo" prefHeight="279.0" prefWidth="426.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <ImageView fitHeight="150.0" fitWidth="84.0" layoutX="14.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../resources/user.png" />
+            </image>
+        </ImageView>
+        <Text id="lbUsername" fx:id="txtUserName" layoutX="137.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username " wrappingWidth="204.13671875">
+            <font>
+                <Font size="21.0" />
+            </font>
+        </Text>
+        <Text id="lbEmail" fx:id="txtEmail" layoutX="213.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="email@email.com" wrappingWidth="190.13671635836363">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+        <Text id="lbFullName" fx:id="txtFullName" layoutX="213.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Full name " wrappingWidth="190.13671875">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+        <Text id="lbCountry" fx:id="txtCountry" layoutX="213.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Egypt">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+        <Text id="lbGender" fx:id="txtGender" layoutX="217.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Female">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+        <Text id="lbStatus" fx:id="txtStatus" layoutX="219.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Online">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+      <Text layoutX="138.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+      <Text layoutX="136.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+      <Text layoutX="138.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Country">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+      <Text layoutX="140.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gender">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+      <Text layoutX="144.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Status">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+    </children>
+</Pane>
